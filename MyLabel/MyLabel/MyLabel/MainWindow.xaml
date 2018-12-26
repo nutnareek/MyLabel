@@ -1,0 +1,178 @@
+﻿<Window x:Class="MyLabel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyLabel"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp"
+        Title="MainWindow" Height="763.3" Width="1021.9" ResizeMode="NoResize" SizeChanged="Window_SizeChanged">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <TextBlock x:Key="CursorHorizontalAdjustment" Cursor="Data/HorizontalAdjustment.cur" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <StackPanel>
+
+        <!-- Top Controls -->
+        <Grid SizeChanged="Grid_SizeChanged">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="87*" />
+                <ColumnDefinition Width="61*"/>
+                <ColumnDefinition Width="736*"/>
+                <ColumnDefinition Width="442*"/>
+
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="10,10,9.5,10" Grid.ColumnSpan="3">
+                <Button x:Name="BtnOpenInstruction" Click="BtnOpenInstruction_Click" Content="Instruction" Padding="5" Margin="0 0 5 0" />
+                <Button x:Name="BtnLoadVid" Content="Load Video" Padding="5" Margin="0 0 5 0" Click="BtnLoadVid_Click" RenderTransformOrigin="0.502,0.5" Height="28" VerticalAlignment="Bottom"/>
+                <Button x:Name="BtnLoadTrimVid" Content="Load and Trim Video" Padding="5" Margin="0 0 5 0" Click="BtnLoadTrimVid_Click" RenderTransformOrigin="0.502,0.5" Height="28" VerticalAlignment="Top"/>
+                <Button x:Name="BtnSaveGroundTruths" Content="Save Labels" Padding="5" Margin="0 0 5 0" Click="BtnSaveGroundTruths_Click" Height="28" VerticalAlignment="Top" />
+                <Button x:Name="BtnLoadGroundTruths" Content="Load Labels" Padding="5" Margin="0 0 5 0" Click="BtnLoadGroundTruths_Click" Height="28" VerticalAlignment="Bottom" />
+                <Button IsEnabled="False" x:Name="BtnResetLabels" Content="Reset Labels" Padding="5" Click="BtnResetLabels_Click" Height="28" VerticalAlignment="Top" />
+            </StackPanel>
+            <StackPanel Grid.Column="3"  Orientation="Horizontal" Margin="0,10,9.5,10" HorizontalAlignment="Right">
+                <Label Content="Time Offset" Padding="5" Margin="5 0 0 0" />
+                <TextBox Name="txtBxTimeOffset" Text="0.00" Margin="5 0 0 0" Padding="5" PreviewTextInput="txtBxTimeOffset_PreviewTextInput"/>
+                <Button Content="Update" Name="btnUpdateOffsetTime" Margin="5 0 10 0" Padding="5" Click="btnUpdateOffsetTime_Click"/>
+                <Button Content="Setting" Padding="5" Margin="5 0 0 0"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Video Controls -->
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="439.2"/>
+                <RowDefinition Height="Auto" MinHeight="107.2"/>
+                <RowDefinition Height="Auto" MinHeight="6"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Background="Black" Margin="0,0,-0.2,9.2"/>
+            <MediaElement MediaOpened="mePlayer_MediaOpened" Grid.Row="0" Margin="10,5,9.8,0" Source="C:\\Users\\NutnareeK\\Desktop\\Group2_Product_Video.mp4" x:Name="mePlayer" LoadedBehavior="Manual" ScrubbingEnabled="True" Height="412" VerticalAlignment="Top" />
+
+            <Slider  Margin="10,5.8,9.8,2.4" Grid.Row="1"  x:Name="slrProgress" Thumb.DragStarted="slrProgress_DragStarted"  Thumb.DragCompleted="slrProgress_DragCompleted" ValueChanged="slrProgress_ValueChanged"  />
+
+            <Canvas Width="Auto" x:Name="CvsLabel" Grid.Row="1" MouseMove="CvsLabel_MouseMove"  MouseRightButtonUp="CvsLabel_MouseRightButtonUp" Margin="0,30.8,-0.2,2.4">
+                <Rectangle x:Name="TrackPose" Fill="Ivory" Canvas.Left="0" Canvas.Top="0" Width="{Binding ElementName=CvsLabel, Path=ActualWidth}" Height="35" />
+                <TextBlock Text="Pose Track" FontSize="10"/>
+                <Rectangle x:Name="TrackAction" Fill="Beige" Canvas.Left="0" Canvas.Top="35" Width="{Binding ElementName=CvsLabel, Path=ActualWidth}" Height="35" />
+                <TextBlock Text="Action Track" FontSize="10" Canvas.Left="0" Canvas.Top="35"/>
+            </Canvas>
+            <Canvas x:Name="CvsTrackProgress" Width="Auto" Grid.Row="1" Margin="0,30.8,-0.2,2.4">
+                <Rectangle x:Name="TrackLine" Fill="Red" Canvas.Left="0" Canvas.Top="0" Width="1" Height="70" />
+            </Canvas>
+
+
+            <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="10,2.6,9.8,17.8">
+                <Label x:Name="lblStatus" Content="Not Playing..." />
+                <Button x:Name="btnPlay" Padding="4 2" Click="btnPlay_Click" Content="Play" />
+                <Button x:Name="btnPause" Padding="4 2" Margin="5 0" Click="btnPause_Click" Content="Pause" />
+                <Button x:Name="btnStop" Padding="4 2" Margin="5 0 20 0" Click="btnStop_Click" Content="Stop" />
+
+                <Label  Content="Play Speed" />
+                <ComboBox x:Name="playSpeed" Margin="5 0 20 0" SelectionChanged="playSpeed_SelectionChanged">
+                    <ComboBoxItem >0.3x</ComboBoxItem>
+                    <ComboBoxItem >0.5x</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">1x</ComboBoxItem>
+                    <ComboBoxItem>1.3x</ComboBoxItem>
+                    <ComboBoxItem>1.5x</ComboBoxItem>
+                </ComboBox>
+                <Button x:Name="btnReset" Padding="4 2" Margin="5 0" Click="btnReset_Click" Content="Reset" />
+                <Button x:Name="btnRemove" Padding="4 2" Margin="5 0" Click="btnRemove_Click" Content="Remove" Height="26" />
+                <Button x:Name="button" Content="Get Label Info" Width="91" Click="button_Click" Height="26" VerticalAlignment="Top"/>
+                <Button x:Name="btnEditTag" Content="Edit Tag Names" Click="btnEditTag_Click" Padding="4 2" Margin="5 0" Height="26" VerticalAlignment="Top" IsEnabled="False"/>
+                <Button x:Name="btnSaveEditTag" Content="Edit Tag Names" Click="btnSaveEditTag_Click" Padding="4 2" Margin="5 0" Height="26" VerticalAlignment="Top" IsEnabled="False"/>
+                <CheckBox x:Name="chckBoxSetOffset" Content="Set Offset" Checked="chckBoxSetOffset_Checked" Unchecked="chckBoxSetOffset_Unchecked" />
+                <CheckBox x:Name="chckBoxSetOffset10" Content="Set Offset" Checked="chckBoxSetOffset10_Checked" Unchecked="chckBoxSetOffset10_Unchecked"  />
+                <Button x:Name="btnStartTag" Content="Start" Click="btnEditTag_Click" Padding="4 2" Margin="5 0" Height="26" VerticalAlignment="Top" IsEnabled="False"/>
+                <Button x:Name="btnStopTag" Content="End" Click="btnSaveEditTag_Click" Padding="4 2" Margin="5 0" Height="26" VerticalAlignment="Top" IsEnabled="False"/>
+            </StackPanel>
+        </Grid>
+        <Grid></Grid>
+
+        <!-- Labeling Parts -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Pose Type" FontWeight="Bold" Grid.Column="0" Grid.Row="0" Margin="10 0 0 5"/>
+            <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1" Margin="10 0">
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0" >
+                    <Button Content="POSE 1" Padding="4 2" />
+                    <Label Content="A" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0" >
+                    <Button Content="POSE 2" Padding="4 2" />
+                    <Label Content="Z" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="POSE 3" Padding="4 2" />
+                    <Label Content="S" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="POSE 4" Padding="4 2" />
+                    <Label Content="X" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="POSE 5" Padding="4 2"  />
+                    <Label Content="D" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Button Content="POSE 6" Padding="4 2"  />
+                    <Label Content="C" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Button Content="POSE 7" Margin="0 0 5 0" Padding="4 2"  />
+                    <Label Content="F" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Button Content="POSE 8" Margin="0 0 5 0" Padding="4 2"  />
+                    <Label Content="V" HorizontalAlignment="Center" />
+                </StackPanel>
+                
+            </StackPanel>
+
+            <TextBlock Text="Action Type" FontWeight="Bold" Grid.Column="1" Grid.Row="0" Margin="0 0 0 5"/>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0" >
+                    <Button Content="ACTION 1" Padding="4 2" />
+                    <Label Content="G" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0" >
+                    <Button Content="ACTION 2" Padding="4 2" />
+                    <Label Content="H" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="ACTION 3" Padding="4 2" />
+                    <Label Content="J" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="ACTION 4" Padding="4 2" />
+                    <Label Content="K" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="ACTION 5" Padding="4 2" />
+                    <Label Content="L" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 5 0">
+                    <Button Content="ACTION 6" Padding="4 2" />
+                    <Label Content="B" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Button Content="ACTION 7" Padding="4 2" />
+                    <Label Content="N" HorizontalAlignment="Center" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+    </StackPanel>
+</Window>

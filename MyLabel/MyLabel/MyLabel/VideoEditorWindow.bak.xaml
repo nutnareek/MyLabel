@@ -1,0 +1,59 @@
+﻿<Window x:Class="MyLabel.VideoEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyLabel"
+        mc:Ignorable="d"
+        Title="VideoEditorWindow" Height="500" Width="600">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="Black"/>
+        <MediaElement Grid.Row="0" Margin="10 5" Source="C:\\Users\\nutnaree\\Downloads\\Group2_Product_Video.mp4" x:Name="editorPlayer" LoadedBehavior="Manual" ScrubbingEnabled="True" />
+        <Slider Grid.Row="1" Margin="10 5" x:Name="SlrEditProg"/>
+        <Grid Grid.Row="2" Margin="10 5 10 5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <Button x:Name="BtnRewind"  Margin="0 0 5 0" Width="30" Height="30" BorderBrush="Transparent" MouseEnter="BtnRewind_MouseEnter" MouseLeave="BtnRewind_MouseLeave">
+                    <Button.Background>
+                        <ImageBrush x:Name="ImgRewind" ImageSource="Images/rewind.png"/>
+                    </Button.Background>
+                </Button>
+                <Button   Margin="0 0 5 0" Width="30" Height="30" BorderBrush="Transparent">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/play.png"/>
+                    </Button.Background>
+                </Button>
+                <Button   Margin="0 0 5 0" Width="30" Height="30" BorderBrush="Transparent">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/stop.png"/>
+                    </Button.Background>
+                </Button>
+                <Button   Margin="0 0 5 0" Width="30" Height="30" BorderBrush="Transparent">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/plus.png"/>
+                    </Button.Background>
+                </Button>
+                <Button   Margin="0 0 5 0" Width="30" Height="30" BorderBrush="Transparent">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/minus.png"/>
+                    </Button.Background>
+                </Button>
+
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" >
+                <Button Content="OK" Margin="0 0 5 0" Padding="5" />
+                <Button Content="Cancel" Padding="5" />
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

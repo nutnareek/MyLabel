@@ -1,0 +1,219 @@
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\App.g.cs
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+c:\users\nutnaree\documents\visual studio 2015\Projects\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\nutnaree\Documents\Visual Studio 2015\Projects\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\NutnareeK\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\nutnaree\Desktop\tmp\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.g.cs
+C:\Users\Kuma Laptop\Desktop\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.baml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.g.cs
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.baml
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\nutnaree\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.g.cs
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.baml
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\Kuma Laptop\Dropbox\Shared Files\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.g.cs
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.baml
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\nutnaree\Desktop\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel.exe
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel.pdb
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\Images\rewind2.png
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\MyLabel.exe
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\MyLabel.pdb
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\AForge.dll
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\AForge.Video.dll
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\MediaToolkit.dll
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\AForge.xml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\bin\Debug\AForge.Video.xml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel.csprojResolveAssemblyReference.cache
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\InstructionWindow.g.cs
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MainWindow.g.cs
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.g.cs
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.g.cs
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\App.g.cs
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel_Content.g.cs
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.cache
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel_MarkupCompile.lref
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\App.baml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\InstructionWindow.baml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MainWindow.baml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\VideoEditorWindow.baml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\EditOffsetWindow.baml
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel.g.resources
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel.Properties.Resources.resources
+C:\Users\NutnareeK\Downloads\MyLabel\MyLabel\MyLabel\obj\Debug\MyLabel.csproj.GenerateResource.Cache
+C:\Users\NutnareeK\Documents\GitHub\MyLabel\MyLabel\MyLabel\MyLabel\bin\Debug\MyLabel.exe.config
